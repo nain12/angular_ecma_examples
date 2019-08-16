@@ -6,9 +6,9 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent{
 
-    @Output() display = new EventEmitter<string>();
+    /* @Output() display = new EventEmitter<string>();
     onSelect(displayMenu: string): void {
        this.display.emit(displayMenu);
-    }
+    } */
 
 }
